@@ -1,0 +1,155 @@
+/*	Medium Layout: 1280px	*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+	/* css */
+	.intro-area::before {
+		width: 38%;
+	}
+
+}
+
+
+
+/*		Tablet Layout: 768px.       */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	/* css */
+	section.benifit-area .intro-box {
+		padding: 40px;
+	}
+
+	.intro-left-content {
+		margin-left: 0;
+		padding-right: 60%;
+	}
+
+	.intro-area::before {
+		width: 51%;
+	}
+
+	.team-bg {
+		height: 200px;
+	}
+
+}
+
+
+
+
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+
+	/* css */
+	.slide-content h1,
+	.slide-content h4,
+	.single-slide .slide-button {
+		margin-left: 80px;
+	}
+
+
+
+
+}
+
+
+/*		Mobile Layout: 320px.         */
+
+@media only screen and (max-width: 767px) {
+
+	/* css */
+	#ourmenu {
+		display: none;
+	}
+
+	.slicknav_menu {
+		display: block;
+	}
+
+	.slide-content h4 {
+		font-size: 16px;
+	}
+
+	.slide-content h1 {
+		font-size: 50px;
+	}
+
+	.intro-box {
+		padding: 20px 0;
+	}
+
+	.intro-box:after {
+		bottom: 0;
+	}
+
+	.video-box button {
+		height: 60px;
+		width: 60px;
+		line-height: 60px;
+		font-size: 26px;
+	}
+
+	.service-bottom-area::after {
+		display: none;
+	}
+
+	.service-big-text {
+		position: relative;
+		margin-top: 30px;
+		width: auto;
+	}
+
+	.form-area::before {
+		display: none;
+	}
+
+	.form-area h2 {
+		color: #333;
+	}
+
+	.footer-social {
+		text-align: left;
+	}
+
+
+	.intro-left-content {
+		margin-left: 0;
+	}
+
+	.intro-area::before {
+		position: relative;
+	}
+
+	.intro-left-content,
+	.intro-left-content h4 {
+		color: #333;
+	}
+
+
+}
+
+
+
+/*		Wide Mobile Layout: 480px.        */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	/* css */
+
+}
+
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+	/* css */
+
+}
