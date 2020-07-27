@@ -119,14 +119,10 @@ ul.main-menu li a:hover {
   color: #FF7D00;
 }
 
-li.translate-menu {
-  position: absolute;
-  right: 0px;
-}
-
-li.translate-menu img {
+.translate-menu img {
   width: 20px;
   margin-right: 5px;
+  display: inline-block;
 }
 
 .main-menu li {
@@ -171,6 +167,88 @@ li.translate-menu img {
   border: none;
 }
 
+ul.translate-menu {
+  position: relative;
+  z-index: 9999;
+}
+
+ul.translate-menu li {
+  position: relative;
+}
+
+ul.translate-menu li ul {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 9999;
+  background: #222232;
+  width: 130px;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+}
+
+ul.translate-menu {
+  display: inline-block;
+}
+
+ul.translate-menu li li a {
+  text-align: left;
+  padding: 5px 15px;
+  font-size: 15px;
+  border-bottom: 1px solid #333;
+}
+
+ul.translate-menu li li:last-child a {
+  border: none;
+}
+
+ul.translate-menu li li a:hover {
+  color: #FF7D00;
+}
+
+ul.translate-menu li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul.translate-menu,
+ul.translate-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-phone {
+  display: inline-block;
+}
+
+.main-menu-area {
+  text-align: center;
+}
+
+.main-menu-area ul ul {
+  text-align: left;
+}
+
+.top-right-area {
+  position: relative;
+  z-index: 99;
+}
+
+.top-right-area::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/img/uppper-phone-bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
 
 .top-right-area a {
   color: white;
@@ -178,10 +256,13 @@ li.translate-menu img {
   padding: 20px;
   display: block;
   text-align: right;
-  background-image: url(assets/img/uppper-phone-bg.png);
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
+}
+
+a.header-phone {
+  display: inline-block;
+  font-size: 15px;
+  position: relative;
+  z-index: 99;
 }
 
 header {
@@ -964,4 +1045,8 @@ section.slider-area .slider-bottom-text a {
 li.translate-menu.slicknav_collapsed.slicknav_parent {
   background: #333;
   padding: 5px 10px;
+}
+
+.slicknav_nav .slicknav_item a:focus {
+  color: #fff;
 }
