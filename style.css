@@ -612,6 +612,10 @@ section.slider-area .slider-bottom-text a {
   border: 2px solid #fff;
 }
 
+.service-bottom img {
+  width: 100%;
+}
+
 .service-text h3 {
   font-size: 24px;
   color: #222232;
