@@ -224,9 +224,6 @@ ul.translate-menu ul {
   display: inline-block;
 }
 
-.main-menu-area {
-  text-align: center;
-}
 
 .main-menu-area ul ul {
   text-align: left;
@@ -234,7 +231,7 @@ ul.translate-menu ul {
 
 .top-right-area {
   position: relative;
-  z-index: 99;
+  z-index: 9999;
 }
 
 .top-right-area::after {
@@ -1015,7 +1012,7 @@ section.slider-area .slider-bottom-text a {
   position: absolute;
   right: 0;
   top: 10px;
-  z-index: 99;
+  z-index: 99999;
   width: 60%;
 }
 
