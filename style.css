@@ -86,7 +86,6 @@ p {
   padding: 100px 0;
 }
 
-
 .main-menu {
   position: relative;
   margin: 0px;
@@ -116,7 +115,7 @@ ul.main-menu li a {
 }
 
 ul.main-menu li a:hover {
-  color: #FF7D00;
+  color: #ff7d00;
 }
 
 .translate-menu img {
@@ -139,11 +138,11 @@ ul.main-menu li a:hover {
   display: none;
   opacity: 0;
   visibility: hidden;
-  transition: .3s;
-  -webkit-transition: .3s;
-  -moz-transition: .3s;
-  -ms-transition: .3s;
-  -o-transition: .3s;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .main-menu li:hover ul {
@@ -204,7 +203,7 @@ ul.translate-menu li li:last-child a {
 }
 
 ul.translate-menu li li a:hover {
-  color: #FF7D00;
+  color: #ff7d00;
 }
 
 ul.translate-menu li:hover ul {
@@ -224,7 +223,6 @@ ul.translate-menu ul {
   display: inline-block;
 }
 
-
 .main-menu-area ul ul {
   text-align: left;
 }
@@ -236,7 +234,7 @@ ul.translate-menu ul {
 
 .top-right-area::after {
   position: absolute;
-  content: "";
+  content: '';
   right: 0;
   top: 0;
   width: 100%;
@@ -250,7 +248,7 @@ ul.translate-menu ul {
 .top-right-area a {
   color: white;
   font-weight: 700;
-  padding: 20px;
+  padding: 18px;
   display: block;
   text-align: right;
 }
@@ -273,10 +271,9 @@ header {
 }
 
 section.intro-area .col-lg-5 {
-  background: #FF7D00;
+  background: #ff7d00;
   color: #fff;
 }
-
 
 .intro-left-content {
   font-size: 20px;
@@ -292,7 +289,6 @@ h4.name {
   font-size: 16px;
 }
 
-
 .section-title {
   font-weight: 700;
   font-size: 40px;
@@ -307,7 +303,7 @@ h4.name {
 }
 
 .intro-box a {
-  color: #FF7D00;
+  color: #ff7d00;
   font-weight: 700;
 }
 
@@ -315,8 +311,8 @@ h4.name {
   position: absolute;
   left: 0px;
   right: 0px;
-  content: "";
-  background: #CDCDD3;
+  content: '';
+  background: #cdcdd3;
   height: 1px;
   width: 100%;
   bottom: 0;
@@ -345,7 +341,7 @@ h4.name {
 }
 
 .section-title:before {
-  content: "";
+  content: '';
   position: absolute;
   top: -10px;
   left: -3px;
@@ -353,7 +349,7 @@ h4.name {
   width: 0px;
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-bottom: 5px solid #FF7D00;
+  border-bottom: 5px solid #ff7d00;
   transform: rotate(-45deg);
 }
 
@@ -373,7 +369,7 @@ section.why-choose-area {
 
 .video-box button {
   position: absolute;
-  background: #FF7D00;
+  background: #ff7d00;
   height: 120px;
   width: 120px;
   display: inline-block;
@@ -387,20 +383,19 @@ section.why-choose-area {
 }
 
 section.benifit-area {
-  background: #F5F5F5;
+  background: #f5f5f5;
   padding: 120px 0 80px;
   margin-top: -80px;
 }
 
 section.benifit-area .intro-box:after {
   display: none;
-  ;
 }
 
 section.benifit-area .intro-box {
-  background: #Ffff;
+  background: #ffff;
   padding: 90px 50px;
-  border: 1px solid #CCCCD1;
+  border: 1px solid #ccccd1;
   border-radius: 3px;
 }
 
@@ -501,11 +496,11 @@ section.slider-area .slider-bottom-text a {
 }
 
 .single-slide.slide-2 {
-  background-image: url("assets/img/slider-bg-2.jpg")
+  background-image: url('assets/img/slider-bg-2.jpg');
 }
 
 .single-slide.slide-1 {
-  background-image: url("assets/img/slider-bg-1.jpg")
+  background-image: url('assets/img/slider-bg-1.jpg');
 }
 
 .slide-button {
@@ -516,7 +511,7 @@ section.slider-area .slider-bottom-text a {
 .slide-button:hover {
   background: #ff7e00;
   color: #fff;
-  border-color: #FF7e00;
+  border-color: #ff7e00;
 }
 
 .slide-button i {
@@ -525,7 +520,7 @@ section.slider-area .slider-bottom-text a {
 
 .team-bg1 {
   background-color: #ddd;
-  background-image: url("assets/img/team1.jpg");
+  background-image: url('assets/img/team1.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -550,11 +545,11 @@ section.slider-area .slider-bottom-text a {
   display: none;
   opacity: 0;
   visibility: hidden;
-  transition: .3s;
-  -webkit-transition: .3s;
-  -moz-transition: .3s;
-  -ms-transition: .3s;
-  -o-transition: .3s;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
 .single-team:hover .team-social {
@@ -658,12 +653,12 @@ section.slider-area .slider-bottom-text a {
 
 .intro-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   width: 33%;
   height: 100%;
-  background: #FF7D00;
+  background: #ff7d00;
 }
 
 .intro-left-content {
@@ -682,7 +677,7 @@ section.slider-area .slider-bottom-text a {
 
 .single-service-box:hover .service-icon,
 .single-service-box.active .service-icon {
-  background-color: #FF7D00;
+  background-color: #ff7d00;
   color: #fff;
 }
 
@@ -697,7 +692,7 @@ section.slider-area .slider-bottom-text a {
 
 .our-service-area::after {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: 0;
   width: 100%;
@@ -724,13 +719,12 @@ section.slider-area .slider-bottom-text a {
 
 .service-bottom-area::after {
   position: absolute;
-  content: "";
+  content: '';
   right: 0;
   bottom: 0;
   width: 45%;
   height: 620px;
-  background: url("assets/img/service-big.jpg") no-repeat scroll 0 0 / cover;
-
+  background: url('assets/img/service-big.jpg') no-repeat scroll 0 0 / cover;
 }
 
 .service-big-text {
@@ -781,7 +775,7 @@ section.slider-area .slider-bottom-text a {
 }
 
 .blog-text .blog-title:hover {
-  color: #FF7D00;
+  color: #ff7d00;
 }
 
 .blog-text {
@@ -815,7 +809,7 @@ section.slider-area .slider-bottom-text a {
 
 .form-area::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
   width: 33%;
@@ -867,7 +861,7 @@ section.slider-area .slider-bottom-text a {
 
 .single-location {
   padding: 30px 20px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .single-location:hover,
@@ -913,7 +907,7 @@ section.slider-area .slider-bottom-text a {
 }
 
 .single-footer li a:hover {
-  color: #FF7D00;
+  color: #ff7d00;
 }
 
 .fwidget1 li a {
@@ -979,7 +973,7 @@ section.slider-area .slider-bottom-text a {
 }
 
 .footer-social li a:hover {
-  color: #FF7D00;
+  color: #ff7d00;
 }
 
 .copyright {
@@ -1031,7 +1025,7 @@ section.slider-area .slider-bottom-text a {
 }
 
 .slicknav_nav li a:hover {
-  background: #FF7D00;
+  background: #ff7d00;
   color: #fff;
 }
 
@@ -1040,7 +1034,7 @@ section.slider-area .slider-bottom-text a {
 }
 
 .slicknav_nav .slicknav_row:hover {
-  background: #FF7D00;
+  background: #ff7d00;
 }
 
 li.translate-menu.slicknav_collapsed.slicknav_parent {
