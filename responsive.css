@@ -114,15 +114,20 @@
 
 	.intro-left-content {
 		margin-left: 0;
+		margin-bottom: 30px;
 	}
 
 	.intro-area::before {
-		position: relative;
+		height: 400px;
+		width: 100%;
 	}
 
-	.intro-left-content,
-	.intro-left-content h4 {
-		color: #333;
+	li.translate-menu {
+		right: 5px;
+	}
+
+	li.translate-menu ul {
+		background: #333;
 	}
 
 

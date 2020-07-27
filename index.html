@@ -46,22 +46,40 @@
 				<div class="col-md-2">
 					<h1 class="logo"><a href="index.html"><img src="assets/img/logo.png" alt=""></a></h1>
 				</div>
-				<div class="col-md-8">
+				<div class="col-md-7">
 					<div class="main-menu-area">
 						<ul class="main-menu" id="ourmenu">
 							<li><a href="index.html">home</a></li>
 							<li><a href="#services-area">services</a></li>
-							<li><a href="#pages-area">pages</a></li>
+							<li><a href="#pages-area">pages <i class="fa fa-caret-down"></i></a>
+								<ul>
+									<li><a href="">about</a></li>
+									<li><a href="">careers</a></li>
+									<li><a href="">our team</a></li>
+									<li><a href="">approach</a></li>
+									<li><a href="">case studies</a></li>
+								</ul>
+							</li>
 							<li><a href="#cases-area">cases</a></li>
 							<li><a href="#blog-area">blog</a></li>
 							<li><a href="#contact-area">contact</a></li>
-							<li class="translate-menu"><a href="#"><img src="assets/img/flag.png" alt="">english <i
-										class="fa fa-caret-down"></i></a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-2">
-					<div class="top-right-area"><a href="tel:+8889990000">+ 888 999 0000</a></div>
+				<div class="col-md-3">
+					<div class="top-right-area">
+						<ul class="translate-menu">
+							<li><a href="#"><img src="assets/img/flag.png" alt="">english <i
+								class="fa fa-caret-down"></i></a>
+								<ul>
+									<li><a href="">Bangla</a></li>
+									<li><a href="">Franch</a></li>
+									<li><a href="">Arabic</a></li>
+								</ul>
+							</li>
+							</ul>
+						<a class="header-phone" href="tel:+8889990000">+ 888 999 0000</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -534,17 +552,7 @@
 		</div>
 	</section>
 
-	<section class="map-area section-padding gray-bg">
-		<div class="container">
-			<div class="row d-flex justify-content-between align-items-center">
-				<div class="col-md-12 text-center">
-					<div class="location-map ">
-						<img src="assets/img/location.png" alt="">
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	<div class="map"></div>
 
 	<footer class="footer-area">
 		<div class="container">
@@ -631,6 +639,8 @@
 	<script src="assets/js/modal-video.min.js"></script>
 	<!-- Slick Nav -->
 	<script src="assets/js/slicknav.js"></script>
+	<!-- GMap -->
+	<script src="assets/js/gmap3.min.js"></script>
 	<!-- Main Js -->
 	<script type="text/javascript" src="assets/js/active.js"></script>
 </body>
